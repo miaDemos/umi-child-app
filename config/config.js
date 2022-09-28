@@ -4,14 +4,13 @@
  * @Autor: 王敏
  * @Date: 2021-09-13 15:23:51
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-09-28 19:34:30
+ * @LastEditTime: 2022-09-28 20:38:10
  */
 import routes from './routes';
 
 export default {
   routes, // 配置式路由
-  title: '民宗项目',
-  // publicPath: process.env.NODE_ENV === 'development' ? '/':'/minzong/manageSystem/',// 资源存放路径
+  title: '我是react子应用',
   publicPath: process.env.NODE_ENV === 'development' ? '/' : '/subReact/',// 资源存放路径
   proxy: {
     '/api': {
